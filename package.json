@@ -2,5 +2,19 @@
   "name": "flatten",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "jest": "^23.4.2",
+    "mocha": "^5.2.0"
+  },
+  "jest": {
+    "testURL": "http://localhost/"
+  }
 }
